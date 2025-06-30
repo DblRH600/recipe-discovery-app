@@ -62,7 +62,7 @@ Component Planning
 
 ### What I learned
 
-This SBA tested and demonstrated the process of **rendering lists**, working with **useState** (State Management Properties) and **component connections**.
+This SBA tested and demonstrated the process of using **custom hooks**, working with **useState** (State Management Properties), **useEffect**, **useContext** and **components**. This SBA aslo tested how to work with **React-Router** and **Pages**.
 
 Code Snippet:
 
@@ -183,13 +183,15 @@ export default useFetch
 
 ### Continued development
 
-I need to gain a better understanding on where the **useState** hook should be placed and when to utilize ***props*** when passing functionality between parent and component connections. 
+I need to build futher understanding on where the **useState** hook should be placed and when to utilize ***props*** when passing functionality between parent and component connections. Understanding how to develop custom hooks was crucial to the productivity and reusability of the code blocks. This project also tested the ability to use context functions effectively.
 
 ### Useful resources
 
-- [Documentation: React: useState](https://react.dev/reference/react/useState) - ***React.dev*** provides useful documentation and examples for how to use **useState** hooks.
+- [Documentation: React](https://react.dev/reference/react) - ***React.dev*** provides useful documentation and examples for how to use **useState** and **useCallback** hooks.
 
 - [Documentation: tailwindcss](https://tailwindcss.com/docs/installation/using-vite) - ***tailwindscss*** was useful in helping to style the project.
+
+- [Blog: How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively) - A blog by Kent Dodds on how to create and use React Context effectively
 
 ## Acknowledgments
 
