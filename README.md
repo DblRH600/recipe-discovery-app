@@ -11,6 +11,7 @@ This is a solution to the [Module 10 SBA: Recipe Discovery App](https://ps-lms.v
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Reflections](#reflections)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Acknowledgments](#acknowledgments)
@@ -63,6 +64,12 @@ Component Planning
 ### What I learned
 
 This SBA tested and demonstrated the process of using **custom hooks**, working with **useState** (State Management Properties), **useEffect**, **useContext** and **components**. This SBA aslo tested how to work with **React-Router** and **Pages**.
+
+### Reflections
+
+Developing the FavoritesContext for the app was challenging. Doing additional research on other state properties and use hooks like **useCallback** and how to properly implement them. The useCallback allows functions/features to be cached between re-renders and prevent unnecessary usage/re-creations of functions that are not in use. **useCallabck** was used to limit the function / re-renders of the **favorites** button unless actioned. **useCallback** manages the ***add***, ***remove***, ***isFavorites*** functionality as a means to improve usuability. 
+
+The **useFetch** hook used **async** / **await** to promote usuability and allow other parts of the app to continue to render while waiting for the data to be fetched from the ***[TheMealDB](https://www.themealdb.com/) API***. **useFetch** also used a **try** / **catch** block to prevent the app from crashing if the fetch fails to retrieve information from the API, as well as check if the function / component is still mounted before allowing updates to the app / page.
 
 Code Snippet:
 
